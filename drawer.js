@@ -1,0 +1,12 @@
+function preload(){
+    img=loadImage("drawer.jpg")
+    }
+    
+    function setup(){
+    canvas=createCanvas(300, 300)
+    canvas.center();
+    }
+    
+    function draw(){
+    image(img, 0, 0, 300, 300);
+    }
